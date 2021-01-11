@@ -1,0 +1,49 @@
+.works {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+
+.work {
+    position: relative;
+    width: 337px;
+    height: 235px;
+}
+
+.workImg {
+    width: 337px;
+    height: 235px;
+}
+
+.cursor {
+    width: 337px;
+    height: 235px;
+    z-index: 99;
+    position: absolute;
+    top: 0;
+    left:0;
+    background-color:rgba(250, 34, 34, 0.7);
+    padding:20px;
+    display: none;
+    text-align: center;
+}
+
+.work:hover .cursor {
+    display: block;
+}
+
+.cursorHeader {
+    padding-top: 50px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cursorText {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}

@@ -1,0 +1,47 @@
+footer{
+    background-color:  #3A3E64;
+    
+}
+.container7{
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3A3E64;
+
+}
+.container7 div {
+    width: 25%;
+    margin-right: 15px;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+.Icons-7{
+    margin-left: 70px;
+    box-sizing: border-box;
+}
+.icons-7{
+    width: 15px;
+    height: 15px;
+    margin: 2px;
+    padding: 2px;
+    border: .5px solid white;
+}
+.nextFooter{
+    height: 50px;
+    width: 400px;
+    margin: 0 auto;
+    color: gray;
+    font-size: 12px;
+    text-emphasis: center;
+}
+
+.share {
+    display: block;
+    text-align: center;
+}
